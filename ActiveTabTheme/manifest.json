@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Dark - Bright Active Tab",
+  "version": "1.0",
+  "theme": {
+    "colors": {
+      "frame": [20, 20, 20],
+      "frame_inactive": [20, 20, 20],
+      "background_tab": [35, 35, 35],
+      "background_tab_inactive": [35, 35, 35],
+      "tab_background_text": [150, 150, 150],
+      "toolbar": [0, 95, 160],
+      "tab_text": [255, 255, 255],
+      "toolbar_text": [255, 255, 255],
+      "toolbar_button_icon": [255, 255, 255],
+      "omnibox_background": [25, 25, 25],
+      "omnibox_text": [235, 235, 235],
+      "ntp_background": [25, 25, 25],
+      "ntp_text": [220, 220, 220]
+    }
+  }
+}
