@@ -1,0 +1,19 @@
+# Chrome extension packaging (private key and packed builds)
+*.pem
+*.crx
+
+# Chrome-generated theme cache
+*.pak
+
+# Secrets and environment files
+.env
+.env.*
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
