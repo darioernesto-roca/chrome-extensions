@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Console Error Badge</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>JavaScript errors</h1>
+      <p id="summary">Loading…</p>
+    </div>
+    <button id="clear" type="button">Clear</button>
+  </header>
+  <p id="empty" hidden>No errors on this page.</p>
+  <ul id="list"></ul>
+  <footer id="note" hidden>Showing the most recent 50 errors.</footer>
+  <script src="popup.js"></script>
+</body>
+</html>

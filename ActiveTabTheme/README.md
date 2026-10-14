@@ -20,11 +20,11 @@ The difference in both color and text brightness lets you find the active tab at
 
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/ActiveTabTheme.git
+   git clone https://github.com/darioernesto-roca/chrome-extensions.git
    ```
 2. Open `chrome://extensions` in Chrome.
 3. Turn on **Developer mode** (toggle in the top-right corner).
-4. Click **Load unpacked** and select the `ActiveTabTheme` folder.
+4. Click **Load unpacked** and select the `ActiveTabTheme` folder inside the cloned repository.
 
 The theme applies immediately.
 
