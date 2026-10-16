@@ -1,0 +1,80 @@
+{
+  "manifest_version": 3,
+  "name": "Active Tab - Cyan",
+  "version": "1.0",
+  "description": "Dark theme with a bright cyan active tab.",
+  "theme": {
+    "colors": {
+      "frame": [
+        14,
+        22,
+        24
+      ],
+      "frame_inactive": [
+        14,
+        22,
+        24
+      ],
+      "background_tab": [
+        28,
+        38,
+        42
+      ],
+      "background_tab_inactive": [
+        28,
+        38,
+        42
+      ],
+      "tab_background_text": [
+        145,
+        155,
+        158
+      ],
+      "toolbar": [
+        0,
+        215,
+        240
+      ],
+      "tab_text": [
+        18,
+        18,
+        18
+      ],
+      "toolbar_text": [
+        18,
+        18,
+        18
+      ],
+      "toolbar_button_icon": [
+        18,
+        18,
+        18
+      ],
+      "bookmark_text": [
+        18,
+        18,
+        18
+      ],
+      "omnibox_background": [
+        25,
+        25,
+        25
+      ],
+      "omnibox_text": [
+        235,
+        235,
+        235
+      ],
+      "ntp_background": [
+        25,
+        25,
+        25
+      ],
+      "ntp_text": [
+        220,
+        220,
+        220
+      ]
+    }
+  }
+}

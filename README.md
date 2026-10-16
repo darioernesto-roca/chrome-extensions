@@ -8,7 +8,7 @@ Each extension lives in its own folder with its own `manifest.json` and README. 
 
 | Name | Type | What it does | Permissions |
 |---|---|---|---|
-| [ActiveTabTheme](ActiveTabTheme/) | Theme | Dark theme that makes the active tab easy to spot with a bright blue color and dimmed inactive tabs. | None |
+| [ActiveTabTheme](ActiveTabTheme/) | Theme | Dark themes for Chrome and Edge that make the active tab easy to spot, in six color variants so each browser can have its own color. | None |
 | [ConsoleErrorBadge](ConsoleErrorBadge/) | Developer tool | Shows how many JavaScript errors the current page has thrown on the toolbar icon, with a popup listing each error and its stack trace. | `storage`, content scripts on all sites |
 | [FakeDataFiller](FakeDataFiller/) | Developer tool | Fills forms with realistic fake names, emails, addresses and test card details with one click or **Alt+Shift+F**. | `activeTab`, `scripting` |
 | [HoverInspector](HoverInspector/) | Developer tool | Hold **Ctrl** and hover any element to see a DevTools-style box with its tag, size, color, font, contrast, image alt and source, and link href and target. | `storage`, content scripts on all sites |
@@ -17,7 +17,7 @@ Each extension lives in its own folder with its own `manifest.json` and README. 
 
 ```
 chrome-extensions/
-├── ActiveTabTheme/       Dark theme with a highlighted active tab
+├── ActiveTabTheme/       Dark themes with a highlighted active tab (6 variants)
 ├── ConsoleErrorBadge/    JavaScript error counter on the toolbar icon
 ├── FakeDataFiller/       One-click form filler for testing
 ├── HoverInspector/       Element details on hover without DevTools

@@ -1,0 +1,80 @@
+{
+  "manifest_version": 3,
+  "name": "Active Tab - Amber",
+  "version": "1.0",
+  "description": "Dark theme with a bright amber active tab.",
+  "theme": {
+    "colors": {
+      "frame": [
+        24,
+        20,
+        14
+      ],
+      "frame_inactive": [
+        24,
+        20,
+        14
+      ],
+      "background_tab": [
+        40,
+        34,
+        26
+      ],
+      "background_tab_inactive": [
+        40,
+        34,
+        26
+      ],
+      "tab_background_text": [
+        155,
+        150,
+        140
+      ],
+      "toolbar": [
+        255,
+        179,
+        0
+      ],
+      "tab_text": [
+        18,
+        18,
+        18
+      ],
+      "toolbar_text": [
+        18,
+        18,
+        18
+      ],
+      "toolbar_button_icon": [
+        18,
+        18,
+        18
+      ],
+      "bookmark_text": [
+        18,
+        18,
+        18
+      ],
+      "omnibox_background": [
+        25,
+        25,
+        25
+      ],
+      "omnibox_text": [
+        235,
+        235,
+        235
+      ],
+      "ntp_background": [
+        25,
+        25,
+        25
+      ],
+      "ntp_text": [
+        220,
+        220,
+        220
+      ]
+    }
+  }
+}

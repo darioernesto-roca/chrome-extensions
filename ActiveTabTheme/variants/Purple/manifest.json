@@ -1,0 +1,80 @@
+{
+  "manifest_version": 3,
+  "name": "Active Tab - Purple",
+  "version": "1.0",
+  "description": "Dark theme with a bright purple active tab.",
+  "theme": {
+    "colors": {
+      "frame": [
+        18,
+        14,
+        24
+      ],
+      "frame_inactive": [
+        18,
+        14,
+        24
+      ],
+      "background_tab": [
+        34,
+        28,
+        44
+      ],
+      "background_tab_inactive": [
+        34,
+        28,
+        44
+      ],
+      "tab_background_text": [
+        152,
+        146,
+        162
+      ],
+      "toolbar": [
+        103,
+        58,
+        183
+      ],
+      "tab_text": [
+        255,
+        255,
+        255
+      ],
+      "toolbar_text": [
+        255,
+        255,
+        255
+      ],
+      "toolbar_button_icon": [
+        255,
+        255,
+        255
+      ],
+      "bookmark_text": [
+        255,
+        255,
+        255
+      ],
+      "omnibox_background": [
+        25,
+        25,
+        25
+      ],
+      "omnibox_text": [
+        235,
+        235,
+        235
+      ],
+      "ntp_background": [
+        25,
+        25,
+        25
+      ],
+      "ntp_text": [
+        220,
+        220,
+        220
+      ]
+    }
+  }
+}
