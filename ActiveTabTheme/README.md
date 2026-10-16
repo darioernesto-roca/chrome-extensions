@@ -4,9 +4,9 @@ Dark Chrome and Edge themes that make the **active tab easy to spot**.
 
 Chrome's default dark mode gives the active tab only a subtle change in shade, so it can be hard to tell which tab you are on. These themes keep the browser dark and give the active tab and toolbar a strong, saturated color, while inactive tabs stay dark with dimmed titles.
 
-There are six color variants. Use a different one in each browser (for example **Blue in Chrome** and **Amber in Edge**) to tell at a glance which browser you're working in.
+There are seven color variants. Use a different one in each browser (for example **Blue in Chrome** and **Amber in Edge**) to tell at a glance which browser you're working in.
 
-![Preview of the six variants](preview.png)
+![Preview of the seven variants](preview.png)
 
 ## Variants
 
@@ -18,6 +18,7 @@ There are six color variants. Use a different one in each browser (for example *
 | **Teal** | `variants/Teal/` | `rgb(0, 121, 107)` | White | Everyday use |
 | **Magenta** | `variants/Magenta/` | `rgb(190, 24, 93)` | White | Everyday use; very distinct from blue |
 | **Purple** | `variants/Purple/` | `rgb(103, 58, 183)` | White | Everyday use |
+| **Sage** | `variants/Sage/` | `rgb(143, 188, 160)` | Near-black | Long sessions; soft and muted but still very visible |
 
 Each variant also tints the dark tab strip slightly toward its own color, so the browser stays recognizable even when its window isn't focused.
 
@@ -33,8 +34,9 @@ All text meets WCAG AA contrast (4.5:1 or higher).
 | Teal | 5.3 : 1 | 2.9 : 1 |
 | Magenta | 6.0 : 1 | 2.7 : 1 |
 | Purple | 7.3 : 1 | 2.3 : 1 |
+| Sage | 8.8 : 1 | **7.2 : 1** |
 
-The second column is what makes the active tab stand out. Amber and Cyan are bright tabs with dark text, so they stand out almost four times more than the others. That makes them the most readable in sunlight or on a dim, glossy screen. The other variants rely more on color than brightness.
+The second column is what makes the active tab stand out. Amber, Cyan and Sage are light tabs with dark text, so they stand out about three to four times more than the others. Amber and Cyan are the most readable in sunlight or on a dim, glossy screen. Sage gets most of that visibility with a softer, less saturated color that is easier on the eyes over long sessions. The other variants rely more on color than brightness.
 
 ### Suggested pairs
 
@@ -43,6 +45,7 @@ The second column is what makes the active tab stand out. Amber and Cyan are bri
 | Blue | Amber | Cool vs. warm, and white vs. dark text. Hardest to confuse. |
 | Cyan | Magenta | Both very vivid, opposite hues. |
 | Teal | Purple | Softer pair for low-light work. |
+| Sage | Magenta | One soft, one vivid; clearly different and both easy to see. |
 
 Avoid Blue in Edge if you want to tell the browsers apart, since Edge's own branding is blue.
 
@@ -65,6 +68,16 @@ Avoid Blue in Edge if you want to tell the browsers apart, since Edge's own bran
 
 A browser uses one theme at a time. Loading a second theme replaces the first, so load only one variant per browser (or per browser profile).
 
+### Where the theme appears
+
+Themes are **not listed in `chrome://extensions`**, even though they are loaded with **Load unpacked**. To see which theme is active, go to **Settings → Appearance → Theme** in Chrome, or `edge://settings/appearance` in Edge.
+
+### Switching colors
+
+To change color, load another variant folder with **Load unpacked**. It replaces the current theme immediately; there's nothing to uninstall first.
+
+Each variant must be its own folder because a Chrome theme is a fixed set of colors with no code. Chrome doesn't let an extension change theme colors while it runs, so one extension can't offer a color picker that switches between them.
+
 ## Customizing
 
 Each variant is a single `manifest.json`. The keys that matter most:
@@ -77,7 +90,7 @@ Each variant is a single `manifest.json`. The keys that matter most:
 | `tab_background_text` | Inactive tab titles. Keeping these dimmed helps the active tab stand out. |
 | `frame` | The tab strip behind the tabs |
 
-After editing, click the reload icon on the theme in `chrome://extensions` or `edge://extensions`.
+After editing, apply the change by loading the same folder again with **Load unpacked**. Themes don't appear in the extensions list, so they have no reload button.
 
 ## Removing the theme
 

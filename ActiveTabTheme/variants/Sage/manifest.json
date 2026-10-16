@@ -1,0 +1,80 @@
+{
+  "manifest_version": 3,
+  "name": "Active Tab - Sage",
+  "version": "1.0",
+  "description": "Dark theme with a bright sage active tab.",
+  "theme": {
+    "colors": {
+      "frame": [
+        16,
+        20,
+        18
+      ],
+      "frame_inactive": [
+        16,
+        20,
+        18
+      ],
+      "background_tab": [
+        32,
+        38,
+        35
+      ],
+      "background_tab_inactive": [
+        32,
+        38,
+        35
+      ],
+      "tab_background_text": [
+        150,
+        158,
+        153
+      ],
+      "toolbar": [
+        143,
+        188,
+        160
+      ],
+      "tab_text": [
+        18,
+        18,
+        18
+      ],
+      "toolbar_text": [
+        18,
+        18,
+        18
+      ],
+      "toolbar_button_icon": [
+        18,
+        18,
+        18
+      ],
+      "bookmark_text": [
+        18,
+        18,
+        18
+      ],
+      "omnibox_background": [
+        25,
+        25,
+        25
+      ],
+      "omnibox_text": [
+        235,
+        235,
+        235
+      ],
+      "ntp_background": [
+        25,
+        25,
+        25
+      ],
+      "ntp_text": [
+        220,
+        220,
+        220
+      ]
+    }
+  }
+}
